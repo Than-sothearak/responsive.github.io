@@ -1,0 +1,130 @@
+*{
+    font-family: Montserrat, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background-color: lightsalmon;
+    font-weight: lighter;
+    color: yellow;
+}
+.header {
+    background-color: teal;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header ul {
+    display: inline-flex;
+}
+.header li {
+    padding-right: 3rem;
+    color: lightsalmon;
+    list-style-type: none;
+}
+.header a {
+    text-decoration: none;
+}
+#main-event {
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+#main-event h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: lighter;
+    color: lightsalmon;
+}
+.event-title {
+    font-weight: lighter;
+    margin: 4rem auto;
+}
+.event-title h2{
+    font-size: 2rem;
+    color: yellow;
+    font-weight: lighter;
+    margin-left: 2rem;
+}
+.event-title p{
+    margin-left: 2rem;
+    color: white;
+    font-stretch: expanded;
+   }
+.event-title a{
+    color: #3498db;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.photo-event img{
+    display: inline-flex;
+    width: 30%;
+    margin: 1.5%;  
+}
+
+.result-title {
+    color: yellow;
+    padding: 1rem 1rem 6rem 1rem;
+    justify-content: center;
+    background-color: teal;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.result-title h1{
+    font-size: 2.5rem;
+}
+
+.photo-result img{
+    display: inline-flex;
+    width: 30%;
+    margin: 1.5%;  
+}
+
+
+.parnter-container {
+    text-align: center;
+    margin: 4rem auto;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.parnter-container img {
+    width: 50%;
+}
+footer p{
+    color: white;
+    text-align: center;
+    background-color: teal;
+    margin-bottom: 0;
+    padding: 10px;
+}
+@media only screen and (max-width: 1048px) {
+    .photo-event img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .photo-result img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+@media only screen and (max-width: 670px) {
+    .photo-event img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .photo-result img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+  }
